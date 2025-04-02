@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bg-indigo-600 {
+    background-color: #4F46E5;
+}
+
+.hover\:bg-indigo-700:hover {
+    background-color: #4338CA;
+}
+
+.text-indigo-600 {
+    color: #4F46E5;
+}
+
+.bg-gray-50 {
+    background-color: #F9FAFB;
+}
+
+.dark .bg-gray-900 {
+    background-color: #111827;
+}
+
+.dark .bg-gray-800 {
+    background-color: #1F2937;
+}
+
+.dark .bg-gray-700 {
+    background-color: #374151;
+}
+
+.dark .text-gray-300 {
+    color: #D1D5DB;
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.delay-100 {
+    animation-delay: 0.1s;
+}
+
+.delay-200 {
+    animation-delay: 0.2s;
+}

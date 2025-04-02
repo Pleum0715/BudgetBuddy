@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    .md\:flex {
+        display: none;
+    }
+
+    .md\:hidden {
+        display: block;
+    }
+
+    .grid-cols-1 {
+        grid-template-columns: 1fr;
+    }
+
+    .md\:grid-cols-2, .md\:grid-cols-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .md\:col-span-2, .md\:col-span-3 {
+        grid-column: span 1 / span 1;
+    }
+}
+
+@media (min-width: 769px) {
+    .md\:flex {
+        display: flex;
+    }
+
+    .md\:hidden {
+        display: none;
+    }
+}
